@@ -1,4 +1,4 @@
-Showcase-jquery-plugin
+Showcase
 ----------------------
 A jQuery plugin to showcase your work with corresponding technologies and tools used for each item.
 
@@ -13,8 +13,8 @@ Usage
 Showcase depends on [jQuery](http://jquery.com). Include them both in your page:
 
 ```sh
-<script src="correct/path/jquery.min.js"></script>
-<script src="correct/path/jquery.showcase.min.js"></script>
+<script src="correct/path/to/jquery.min.js"></script>
+<script src="correct/path/to/jquery.showcase.min.js"></script>
 ```
 
 Initialize the plugin:
