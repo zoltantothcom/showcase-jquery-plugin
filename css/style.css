@@ -1,0 +1,51 @@
+body {
+    background: #222;
+    color: #eee;
+    font: 400 100% sans-serif;
+}
+
+header,
+section {
+    margin: auto;
+    text-align: center;
+    width: 50em;
+}
+
+a {
+    color: #777;
+    display: inline-block;
+    margin: 0 .75em;
+    padding: .5em .75em;
+    text-decoration: none;
+}
+
+a:hover, 
+.ahover {
+    background: #ed9c28;
+    border-radius: 6px;
+    color: #fff;
+}
+
+figure {
+    background: #39b3d7;
+    border-radius: .5em;
+    cursor: pointer;
+    display: inline-block;
+    height: 6.25em;
+    line-height: 6.25em;
+    margin: 1.25em;
+    position: relative;
+    text-align: center;
+    width: 12.5em;
+}
+
+figure img {
+    border-radius: .5em;
+    position: absolute;
+        left: 0;
+        top: 0;
+}
+
+.tags {
+    margin-top: 2em;
+}

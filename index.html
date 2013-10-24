@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Showcase jQuery plugin</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!--[if IE]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <h1>Showcase jQuery plugin</h1>
+    </header>
+
+    <section>
+        <div class="items">
+            <figure data-tags="html css flash">
+                <img src="http://placehold.it/200x100/eeeeee/" alt="" />
+                <figcaption>flash html css</figcaption>
+            </figure>
+           
+            <figure data-tags="php mysql">
+                <img src="http://placehold.it/200x100/eeeeee/" alt="" />
+                <figcaption>php mysql</figcaption>
+            </figure>
+               
+            <figure data-tags="html css javascript">
+                <img src="http://placehold.it/200x100/eeeeee/" alt="" />
+                <figcaption>html css javascript</figcaption>
+            </figure>
+           
+            <figure data-tags="php css jquery">
+                <img src="http://placehold.it/200x100/eeeeee/" alt="" />
+                <figcaption>php css</figcaption>
+            </figure>
+           
+            <figure data-tags="flash javascript">
+                <img src="http://placehold.it/200x100/eeeeee/" alt="" />
+                <figcaption>flash javascript</figcaption>
+            </figure>
+
+            <figure data-tags="jquery css">
+                <img src="http://placehold.it/200x100/eeeeee/" alt="" />
+                <figcaption>jquery css</figcaption>
+            </figure>
+        </div> 
+       
+        <div class="tags">
+            <a href="#" data-tags="html">HTML</a>
+            <a href="#" data-tags="css">CSS</a>
+            <a href="#" data-tags="javascript">JavaScript</a>
+            <a href="#" data-tags="php">PHP</a>
+            <a href="#" data-tags="mysql">MySQL</a>
+            <a href="#" data-tags="flash">Flash</a>
+            <a href="#" data-tags="jquery">jQuery</a>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.showcase.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".tags").showcase({ 'delay' : 2000 });
+        });
+    </script>
+</body>
+</html>
