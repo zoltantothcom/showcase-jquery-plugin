@@ -26,16 +26,16 @@ $(function() {
 ```
 
 
-Available configuration options
--------------------------------
+Options
+-------
 
-* `delay` - the delay in *ms* between the rotation ( default - `2000` )
+* **delay** *(default: 2000)* - delay between the transitions in milliseconds.
 
-* `tagClass` - the CSS class of the container for the list of tools or technologies ( default - `.tags` )
+* **itemClass** *(default: `.items`)* - CSS class of the container for the project tiles.
 
-* `itemClass` - the CSS class of the container for the project tiles ( default - `.items` )
+* **tagClass** *(default: `.tags`)* - CSS class of the container for the list of tools or technologies.
 
-* `hoverClass` - the CSS class for the highlighted tools or technologies ( default - `.ahover` )
+* **hoverClass** *(default: `.ahover`)* - CSS class for the highlighted tools or technologies.
 
 
 Version
