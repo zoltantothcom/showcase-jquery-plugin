@@ -1,3 +1,11 @@
+/*
+ * Showcase 1.0
+ *
+ * Zoltan Toth
+ * Copyright 2013, MIT License
+ *
+*/
+
 ;(function( $ ) {
 
     var props = {
