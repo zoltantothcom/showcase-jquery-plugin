@@ -5,7 +5,7 @@ A jQuery plugin to showcase your work with corresponding technologies and tools 
 
 Demo
 ----   
-For a quick demo you can visit [this page](http://zoltantoth.com/code/showcase/).
+For a quick demo you can visit my [portfolio page](http://zoltantoth.com/).
 
 
 Usage
